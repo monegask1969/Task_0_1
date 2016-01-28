@@ -14,7 +14,7 @@ public class Solanaceae extends Vegetables       //паслёновые
 
     @Override
     public void Show_info() {
-        System.out.println("Solanaceae. \n Quantity of proteins: " + proteins + "\n" + "Quantity of carbs: " + carbs + "\n" + "Quantity of calories: " + calories);
+        System.out.println("Solanaceae. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
     }
 
     @Override

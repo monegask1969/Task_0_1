@@ -22,13 +22,13 @@ public class Main {
         salad[9] = new Roots(0.9,41,10);
         salad[10] = new Cabbage(3.4,43,9);
 
-        System.out.print("Total calorie:");
         double calorie = 0;
         for (int i = 0; i <salad.length; i++) {
             calorie = calorie + salad[i].Calorie();
         }
+        System.out.println("Total calorie:" + calorie);
         System.out.println("Choose the sorting option:");
-        System.out.println("1.Of proteins. \n 2.Of carbs. \n 3.Of calories.");
+        System.out.println(" 1.Of proteins. \n 2.Of carbs. \n 3.Of calories.");
         Scanner scanner = new Scanner(System.in);
         int chooser = scanner.nextInt();
         sortion(salad,chooser);

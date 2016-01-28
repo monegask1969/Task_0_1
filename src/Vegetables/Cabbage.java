@@ -14,7 +14,7 @@ public class Cabbage extends Vegetables      //капустные
 
     @Override
     public void Show_info() {
-        System.out.println("Cabbage. \n Quantity of proteins: " + proteins + "\n" + "Quantity of carbs: " + carbs + "\n" + "Quantity of calories: " + calories);
+        System.out.println("Cabbage. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
     }
 
     @Override
