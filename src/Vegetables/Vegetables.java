@@ -21,5 +21,17 @@ public abstract class Vegetables{
         return calorie;
     }
 
+    public double getProteins() {
+        return proteins;
+    }
+
+    public double getCarbs() {
+        return carbs;
+    }
+
+    public double getCalories() {
+        return calories;
+    }
+
     public abstract void Show_info();
 }

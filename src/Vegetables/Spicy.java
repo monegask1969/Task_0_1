@@ -16,4 +16,24 @@ public class Spicy extends Vegetables        //пряные
     public void Show_info() {
         System.out.println("Spicy. \n Quantity of proteins: " + proteins + "\n" + "Quantity of carbs: " + carbs + "\n" + "Quantity of calories: " + calories);
     }
+
+    @Override
+    public double Calorie() {
+        return super.Calorie();
+    }
+
+    @Override
+    public double getProteins() {
+        return super.getProteins();
+    }
+
+    @Override
+    public double getCarbs() {
+        return super.getCarbs();
+    }
+
+    @Override
+    public double getCalories() {
+        return super.getCalories();
+    }
 }

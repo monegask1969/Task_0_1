@@ -5,7 +5,7 @@ package Vegetables;
  */
 public class Cabbage extends Vegetables      //капустные
 {
-    protected Cabbage(double proteins, double carbs, double calories) {
+    public Cabbage(double proteins, double carbs, double calories) {
         super(proteins,carbs,calories);
         //this.proteins = proteins;
         //this.carbs = carbs;
@@ -20,5 +20,20 @@ public class Cabbage extends Vegetables      //капустные
     @Override
     public double Calorie() {
         return super.Calorie();
+    }
+
+    @Override
+    public double getProteins() {
+        return super.getProteins();
+    }
+
+    @Override
+    public double getCarbs() {
+        return super.getCarbs();
+    }
+
+    @Override
+    public double getCalories() {
+        return super.getCalories();
     }
 }

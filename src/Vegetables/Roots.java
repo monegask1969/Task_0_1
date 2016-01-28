@@ -18,4 +18,19 @@ public class Roots extends Vegetables    //корнеплоды
     public double Calorie() {
         return super.Calorie();
     }
+
+    @Override
+    public double getProteins() {
+        return super.getProteins();
+    }
+
+    @Override
+    public double getCarbs() {
+        return super.getCarbs();
+    }
+
+    @Override
+    public double getCalories() {
+        return super.getCalories();
+    }
 }

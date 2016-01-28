@@ -5,7 +5,7 @@ package Vegetables;
  */
 public class Tubers extends Vegetables       //клубнеплоды
 {
-    protected Tubers(double proteins, double carbs, double calories)
+    public Tubers(double proteins, double carbs, double calories)
     {
         super(proteins,calories,carbs);
        // this.proteins = proteins;
@@ -16,5 +16,25 @@ public class Tubers extends Vegetables       //клубнеплоды
     @Override
     public void Show_info() {
         System.out.println("Tubers. \n Quantity of proteins: " + proteins + "\n" + "Quantity of carbs: " + carbs + "\n" + "Quantity of calories: " + calories);
+    }
+
+    @Override
+    public double Calorie() {
+        return super.Calorie();
+    }
+
+    @Override
+    public double getProteins() {
+        return super.getProteins();
+    }
+
+    @Override
+    public double getCarbs() {
+        return super.getCarbs();
+    }
+
+    @Override
+    public double getCalories() {
+        return super.getCalories();
     }
 }
