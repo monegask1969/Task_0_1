@@ -15,7 +15,7 @@ public class Tubers extends Vegetables       //клубнеплоды
 
     @Override
     public void Show_info() {
-        System.out.println("Tubers. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
+        System.out.println("Tubers. \n Quantity of proteins: " + proteins + ". " + "Quantity of carbs: " + carbs + ". " + "Quantity of calories: " + calories + ".");
     }
 
     @Override

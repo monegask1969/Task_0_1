@@ -14,7 +14,7 @@ public class Legumes extends Vegetables      //бобовые
 
     @Override
     public void Show_info() {
-        System.out.println("Legumes. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
+        System.out.println("Legumes. \n Quantity of proteins: " + proteins + ". " + "Quantity of carbs: " + carbs + ". " + "Quantity of calories: " + calories + ".");
     }
 
     @Override

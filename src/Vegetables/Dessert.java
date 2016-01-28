@@ -14,7 +14,7 @@ public class Dessert extends Vegetables      //десертные
 
     @Override
     public void Show_info() {
-        System.out.println("Dessert. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
+        System.out.println("Dessert. \n Quantity of proteins: " + proteins + ". " + "Quantity of carbs: " + carbs + ". " + "Quantity of calories: " + calories + ".");
     }
 
     @Override

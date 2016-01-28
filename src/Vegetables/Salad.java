@@ -16,7 +16,7 @@ public class Salad extends Vegetables        //салатные
 
     @Override
     public void Show_info() {
-        System.out.println("Salad. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
+        System.out.println("Salad. \n Quantity of proteins: " + proteins + ". " + "Quantity of carbs: " + carbs + ". " + "Quantity of calories: " + calories + ".");
     }
 
     @Override

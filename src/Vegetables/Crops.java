@@ -14,7 +14,7 @@ public class Crops extends Vegetables        //зерновые
 
     @Override
     public void Show_info() {
-        System.out.println("Crops. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
+        System.out.println("Crops. \n Quantity of proteins: " + proteins + ". " + "Quantity of carbs: " + carbs + ". " + "Quantity of calories: " + calories + ".");
     }
 
     @Override

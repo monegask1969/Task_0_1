@@ -14,7 +14,7 @@ public class Gourds extends Vegetables       //бахчевые
 
     @Override
     public void Show_info() {
-        System.out.println("Gourds. Quantity of proteins: " + proteins + "Quantity of carbs: " + carbs + "Quantity of calories: " + calories);
+        System.out.println("Gourds. \n Quantity of proteins: " + proteins + ". " + "Quantity of carbs: " + carbs + ". " + "Quantity of calories: " + calories + ".");
     }
 
     @Override
