@@ -22,7 +22,7 @@ public class Sortion {
                     }
                 }
             }
-            System.out.println("Vegetables were sorted of protein:");
+            System.out.println("Vegetables were sorted by protein:");
             for (int i = 0; i < salad.length; i++) {
                 salad[i].Show_info();
             }
@@ -39,7 +39,7 @@ public class Sortion {
                     }
                 }
             }
-            System.out.println("Vegetables were sorted of carbs:");
+            System.out.println("Vegetables were sorted by carbs:");
             for (int i = 0; i < salad.length; i++) {
                 salad[i].Show_info();
             }
@@ -56,7 +56,7 @@ public class Sortion {
                     }
                 }
             }
-            System.out.println("Vegetables were sorted of calories:");
+            System.out.println("Vegetables were sorted by calories:");
             for (int i = 0; i < salad.length; i++) {
                 salad[i].Show_info();
             }

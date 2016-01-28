@@ -4,6 +4,7 @@ import Vegetables.*;
 
 import java.util.Scanner;
 
+import static com.company.Calories_detective.calories_detective;
 import static com.company.Sortion.sortion;
 
 public class Main {
@@ -28,9 +29,17 @@ public class Main {
         }
         System.out.println("Total calorie:" + calorie);
         System.out.println("Choose the sorting option:");
-        System.out.println(" 1.Of proteins. \n 2.Of carbs. \n 3.Of calories.");
+        System.out.println(" 1.By proteins. \n 2.By carbs. \n 3.By calories.");
         Scanner scanner = new Scanner(System.in);
         int chooser = scanner.nextInt();
         sortion(salad,chooser);
+
+        System.out.println();
+        System.out.println("Enter the range of values to find Vegetables's calories.");
+        System.out.println("From: ");
+        int from = scanner.nextInt();
+        System.out.println("To: ");
+        int to = scanner.nextInt();
+        calories_detective(salad,from,to);
     }
 }
